@@ -11,7 +11,7 @@ For any question or suggestions, feel free to contact hjlee92@yonsei.ac.kr
 ## Dependencies
 
 * Python 3.6.13 (Anaconda)
-* Tensorflow 1.7.1
+* Pytorch 1.7.1
 * CUDA 10.1
 
 
