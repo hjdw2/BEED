@@ -202,7 +202,7 @@ def run_training(args):
 
                 if args.mode == 'EED':
                     total_loss = (CE1 + CE2 + CE3 + CE4) \
-                               + (KD1 + KD1 + KD1 + KD4) \
+                               + (KD1 + KD2 + KD3 + KD4) \
                                + 0.1 * (FD1 + FD2 + FD3 + FD4)
                 else:
                     total_loss = ((2-A**3) * CE1 + A**3 * KD1) \
